@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3adca24a-7819-4c43-a91c-143f441a1ad8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/sakila.sql.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.openshift/action_hooks/deploy" afterPath="$PROJECT_DIR$/.openshift/action_hooks/deploy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config/autoload/database.global.php" afterPath="$PROJECT_DIR$/php/config/autoload/database.global.php" />
     </list>
     <ignored path="catarxis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.33997902" vertical-offset="0" max-vertical-offset="953">
+            <state line="18" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
               <folding />
             </state>
           </provider>
@@ -53,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.global.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.global.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/config/autoload/database.global.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="864">
+            <state line="17" column="51" selection-start="573" selection-end="573" vertical-scroll-proportion="0.33045357" vertical-offset="0" max-vertical-offset="926">
               <folding />
             </state>
           </provider>
@@ -78,8 +77,8 @@
         <option value="$PROJECT_DIR$/php/composer.json" />
         <option value="$PROJECT_DIR$/php/.idea/.gitignore" />
         <option value="$PROJECT_DIR$/php/composer.lock" />
-        <option value="$PROJECT_DIR$/php/config/autoload/database.global.php" />
         <option value="$PROJECT_DIR$/.openshift/action_hooks/deploy" />
+        <option value="$PROJECT_DIR$/php/config/autoload/database.global.php" />
       </list>
     </option>
   </component>
@@ -334,13 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/config/autoload/database.global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../sailez/.openshift/action_hooks/deploy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="6" selection-start="378" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
@@ -350,7 +342,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.33997902" vertical-offset="0" max-vertical-offset="953">
+        <state line="18" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/config/autoload/database.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="51" selection-start="573" selection-end="573" vertical-scroll-proportion="0.33045357" vertical-offset="0" max-vertical-offset="926">
           <folding />
         </state>
       </provider>
