@@ -12,4 +12,5 @@ else
 	$OPENSHIFT_DATA_DIR/../../zend/php-5.4/bin/php -d extension=phar.so $OPENSHIFT_DATA_DIR/composer.phar self-update
 fi
 
-( unset GIT_DIR ; cd $OPENSHIFT_REPO_DIR ; $OPENSHIFT_DATA_DIR/../../zend/php-5.4/bin/php -d extension=phar.so $OPENSHIFT_DATA_DIR/composer.phar install )
+
+( unset GIT_DIR ; cd $OPENSHIFT_REPO_DIR/php  ; $OPENSHIFT_DATA_DIR/../../zend/php-5.4/bin/php -d extension=phar.so $OPENSHIFT_DATA_DIR/composer.phar install )
