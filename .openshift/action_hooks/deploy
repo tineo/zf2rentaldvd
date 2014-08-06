@@ -16,6 +16,6 @@ fi
 ( unset GIT_DIR ; cd $OPENSHIFT_REPO_DIR/php  ; $OPENSHIFT_DATA_DIR/../../zend/php-5.4/bin/php -d extension=phar.so $OPENSHIFT_DATA_DIR/composer.phar install )
 
 
-unzip $OPENSHIFT_DATA_DIR/sakila.sql.zip -d $OPENSHIFT_DATA_DIR
+unzip $OPENSHIFT_DATA_DIR/sakila.sql.zip
 
-mysql -u "$OPENSHIFT_DB_USERNAME" --password="$OPENSHIFT_DB_PASSWORD" -h "$OPENSHIFT_DB_HOST" -P "$OPENSHIFT_DB_PORT" [DBNAME] < $OPENSHIFT_DATA_DIR/sakila.sql.zip
+mysql -u "$OPENSHIFT_DB_USERNAME" --password="$OPENSHIFT_DB_PASSWORD" -h "$OPENSHIFT_DB_HOST" -P "$OPENSHIFT_DB_PORT" [DBNAME] < $OPENSHIFT_DATA_DIR/sakila.sql
