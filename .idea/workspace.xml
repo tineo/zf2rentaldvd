@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3adca24a-7819-4c43-a91c-143f441a1ad8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config/autoload/database.global.php" afterPath="$PROJECT_DIR$/php/config/autoload/database.global.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.openshift/action_hooks/deploy" afterPath="$PROJECT_DIR$/.openshift/action_hooks/deploy" />
     </list>
     <ignored path="catarxis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deploy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+            <state line="17" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="0.3210913" vertical-offset="0" max-vertical-offset="953">
               <folding />
             </state>
           </provider>
@@ -52,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.global.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.global.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/config/autoload/database.global.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="51" selection-start="573" selection-end="573" vertical-scroll-proportion="0.33045357" vertical-offset="0" max-vertical-offset="926">
+            <state line="17" column="51" selection-start="573" selection-end="573" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="864">
               <folding />
             </state>
           </provider>
@@ -77,8 +77,8 @@
         <option value="$PROJECT_DIR$/php/composer.json" />
         <option value="$PROJECT_DIR$/php/.idea/.gitignore" />
         <option value="$PROJECT_DIR$/php/composer.lock" />
-        <option value="$PROJECT_DIR$/.openshift/action_hooks/deploy" />
         <option value="$PROJECT_DIR$/php/config/autoload/database.global.php" />
+        <option value="$PROJECT_DIR$/.openshift/action_hooks/deploy" />
       </list>
     </option>
   </component>
@@ -230,6 +230,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -262,8 +263,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="24" width="1869" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="51" y="24" width="1869" height="1056" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.124665596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -340,16 +341,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
+    <entry file="file://$PROJECT_DIR$/php/config/autoload/database.global.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+        <state line="17" column="51" selection-start="573" selection-end="573" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="864">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/config/autoload/database.global.php">
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="573" selection-end="573" vertical-scroll-proportion="0.33045357" vertical-offset="0" max-vertical-offset="926">
+        <state line="17" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="0.3210913" vertical-offset="0" max-vertical-offset="953">
           <folding />
         </state>
       </provider>
