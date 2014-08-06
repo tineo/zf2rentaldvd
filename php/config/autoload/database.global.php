@@ -12,10 +12,10 @@ return array (
 			'orm_default'=> array (
 				'driverClass' => 'Doctrine\DBAL\Driver\PDOMySql\Driver',
 					'params' => array(
-						'host'     => '127.11.131.2',
-						'user'     => "adminUlW7k8F",
-						'password' => "eVs_c7DQzbdS",
-						'dbname'   => "zf2rentaldvd",
+						'host'     => DB_SERVER,
+						'user'     => DB_USER,
+						'password' => DB_PASSWORD,
+						'dbname'   => DB_DATABASE,
                         'mapping_types' => array("enum" =>"string")
 				)
 			),

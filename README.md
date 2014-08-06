@@ -1,5 +1,8 @@
-Zend Test
+Application Demo Zend Framework 2
 =======================
+
+It was deployed here: https://www.openshift.com/ ( Openshift )
+
 
 This application uses
 
