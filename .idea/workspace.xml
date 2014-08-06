@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3adca24a-7819-4c43-a91c-143f441a1ad8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/composer.lock" afterPath="$PROJECT_DIR$/php/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config/autoload/database.global.php" afterPath="$PROJECT_DIR$/php/config/autoload/database.global.php" />
     </list>
     <ignored path="catarxis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="293" selection-end="293" vertical-scroll-proportion="0.118421055" vertical-offset="0" max-vertical-offset="912">
+            <state line="6" column="42" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.global.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/config/autoload/database.global.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="64" selection-start="197" selection-end="197" vertical-scroll-proportion="0.08135593" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -59,6 +68,7 @@
         <option value="$PROJECT_DIR$/php/composer.json" />
         <option value="$PROJECT_DIR$/php/.idea/.gitignore" />
         <option value="$PROJECT_DIR$/php/composer.lock" />
+        <option value="$PROJECT_DIR$/php/config/autoload/database.global.php" />
       </list>
     </option>
   </component>
@@ -124,6 +134,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarxis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarxis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarxis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catarxis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoload" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,9 +316,23 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/config/application.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="293" selection-end="293" vertical-scroll-proportion="0.118421055" vertical-offset="0" max-vertical-offset="912">
+        <state line="6" column="42" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/config/autoload/database.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="64" selection-start="197" selection-end="197" vertical-scroll-proportion="0.08135593" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
