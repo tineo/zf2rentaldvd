@@ -11,7 +11,7 @@ return array (
 			'orm_default'=> array (
 				'driverClass' => 'Doctrine\DBAL\Driver\PDOMySql\Driver',
 					'params' => array(
-						'host'     => DB_SERVER,
+						'host'     => OPENSHIFT_MYSQL_DB_HOST,
 						'user'     => DB_USER,
 						'password' => DB_PASSWORD,
 						'dbname'   => DB_DATABASE,
