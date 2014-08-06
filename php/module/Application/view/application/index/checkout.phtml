@@ -1,0 +1,70 @@
+
+<div class="panel panel-default">
+    <div class="panel-heading">DVD Information</div>
+    <div class="panel-body">
+        <h2> Item <?=$inventory["inventoryId"]; ?></h2>
+        <p><b>Store : </b><?=$store; ?></p>
+        <p>
+            <?php
+            $form = $this->form;
+            $form->prepare();
+            ?>
+
+            <?=$this->form()->openTag($form); ?>
+        <table class="table table-bordered">
+            <tr>
+                <td><?php echo $this->formRow($form->get('customerId')); ?></td>
+                <td><?php echo $this->formSubmit($form->get('submit'));?>
+            </td>
+            <?=$this->form()->closeTag(); ?>
+            </tr>
+        </table>
+        <?php if(isset($customer)) : ?>
+            <?php
+            $formPayment = $this->formPayment;
+            $formPayment->setAttribute('action', $this->url('application', array('action' => 'payment','id'=>$inventory["film"]['filmId'])));
+            $formPayment->prepare();
+            ?>
+        <table class="table table-bordered">
+            <tbody>
+            <?=$this->form()->openTag($formPayment); ?>
+            <?php echo $this->formRow($formPayment->get('customerId')); ?>
+            <?php echo $this->formRow($formPayment->get('inventoryId')); ?>
+            <tr><td colspan="3"><h4>Customer Information</h4></td></tr>
+            <tr>
+                <td><?=$customer["customerId"] ?></td>
+                <td><?=$customer["lastName"]?>, <?=$customer["firstName"] ?></td>
+                <td><?=$customer["email"] ?></td>
+            </tr>
+
+            <tr>
+                <td colspan="3"><?php echo $this->formSubmit($formPayment->get('submit'));?></td>
+            </tr>
+             </tbody>
+            <?=$this->form()->closeTag($formPayment); ?>
+        </table>
+        <?php endif ?>
+        </p>
+    </div>
+    <div class="panel-body">
+        <table class="table table-bordered">
+            <tr><td>Film ID:</td><td><?=$inventory["film"]['filmId']; ?></td></tr>
+            <tr><td>Title</td><td><?=$inventory["film"]['title']; ?></td></tr>
+            <tr><td>Description</td><td><?=$inventory["film"]['description']; ?></td></tr>
+            <tr><td>Release Year</td><td><?=$inventory["film"]['releaseYear']; ?></td></tr>
+            <tr><td>Rental Duration</td><td><h4><?=$inventory["film"]['rentalDuration']; ?> day(s)</h4></td></tr>
+            <tr><td>Rental Rate</td><td><h3><?=$inventory["film"]['rentalRate']; ?></h3></td></tr>
+            <tr><td>Length</td><td><?=$inventory["film"]['length']; ?></td></tr>
+            <tr><td>Replacement cost</td><td><?=$inventory["film"]['replacementCost']; ?></td></tr>
+            <tr><td>Rating</td><td><?=$inventory["film"]['rating']; ?></td></tr>
+            <tr><td>Sepecial Features</td><td><?=$inventory["film"]['specialFeatures']; ?></td></tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+

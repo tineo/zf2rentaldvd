@@ -1,0 +1,16 @@
+{
+    "name": "tineo/catarxis",
+    "description": "Zend Test",
+    "license": "MIT",
+    "keywords": [
+        "catarxis",
+        "zf2"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "require": {
+        "php": ">=5.5",
+        "zendframework/zendframework": "2.3.*",
+        "doctrine/doctrine-orm-module": "0.*",
+        "zendframework/zend-developer-tools": "dev-master"
+    }
+}
